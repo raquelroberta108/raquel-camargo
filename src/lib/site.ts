@@ -14,20 +14,32 @@ export const NAV_LINKS: [string, string][] = [
 export const TESTIMONIALS = [
   {
     author: "Beatriz Tobias",
-    text: "Não troco a Dra. Raquel por nadaaa! Ela é muito atenciosa, explica todos os procedimentos com muito detalhe e passa muita segurança durante o atendimento. Além disso, os resultados são maravilhosos! Super recomendo, com certeza vou continuar fazendo meus procedimentos com ela!",
+    text: "Não troco a Dra. Raquel por nada! Ela é muito atenciosa, explica todos os procedimentos com muito detalhe e passa muita segurança durante o atendimento. Além disso, os resultados são maravilhosos! Super recomendo. Com certeza vou continuar fazendo meus procedimentos com ela!",
   },
   {
     author: "Larissa Santos",
-    text: "A Dra Raquel é uma excente profissional, tem o atendimento humanizado e individualizado, explica passo a passo dos atendimentos tirando todas as dúvidas.",
+    text: "A Dra. Raquel é uma excelente profissional. Tem um atendimento humanizado e individualizado, explica o passo a passo dos atendimentos e tira todas as dúvidas.",
   },
   {
     author: "Ana Paula Siqueira",
-    text: "Amei meu atendimento! A drª Raquel é uma excelente profissional e muito atenciosa. Me passou muita segurança e o resultado ficou incrível! Não largo mais.",
+    text: "Amei meu atendimento! A Dra. Raquel é uma excelente profissional e muito atenciosa. Me passou muita segurança, e o resultado ficou incrível! Não largo mais.",
   },
 ];
 
 export const EXPERIENCE_STEPS: [string, string, string][] = [
-  ["01", "Avaliação personalizada", "Cada paciente possui características e objetivos individuais."],
-  ["02", "Planejamento", "O procedimento é pensado de acordo com a necessidade de cada rosto."],
-  ["03", "Acompanhamento", "Uma experiência que continua além do procedimento."],
+  [
+    "01",
+    "Avaliação personalizada",
+    "Cada paciente tem características e objetivos próprios. Por isso, tudo começa com uma escuta atenta e uma análise cuidadosa.",
+  ],
+  [
+    "02",
+    "Planejamento individualizado",
+    "O tratamento é definido de acordo com as necessidades de cada rosto, com critério técnico e transparência em cada etapa.",
+  ],
+  [
+    "03",
+    "Acompanhamento",
+    "O cuidado continua depois do procedimento, com orientações claras e acompanhamento da sua evolução.",
+  ],
 ];
