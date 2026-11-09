@@ -144,16 +144,23 @@ function Index() {
               <br />
               Preserve sua essência.
             </h1>
-            <p className="mt-7 max-w-lg text-sm leading-7 text-cream/68 md:text-base">
-              Procedimentos estéticos personalizados para valorizar seus traços e proporcionar
-              resultados naturais e harmônicos.
+            <p className="mt-8 max-w-xl text-base leading-8 text-cream/85 md:text-lg md:leading-8">
+              Tratamentos estéticos personalizados, com técnicas avançadas e planejamento
+              individualizado para valorizar sua beleza, respeitando sua naturalidade e essência.
             </p>
-            <div className="mt-10 flex flex-col gap-4 sm:flex-row">
-              <a href={WHATSAPP_URL} {...ext} className="cta-primary">
-                Agendar avaliação <ArrowUpRight size={16} />
+            <div className="mt-6 flex max-w-lg gap-5">
+              <span aria-hidden className="w-px shrink-0 bg-rose/60" />
+              <p className="text-sm leading-7 text-cream/60">
+                Cada paciente é única. Por isso, cada tratamento começa com uma avaliação
+                cuidadosa, considerando suas características, necessidades e objetivos.
+              </p>
+            </div>
+            <div className="mt-10 flex flex-col gap-4 sm:flex-row sm:items-center">
+              <a href={WHATSAPP_URL} {...ext} className="cta-primary cta-hero">
+                Agende sua avaliação <ArrowUpRight size={18} />
               </a>
               <a href="#procedimentos" className="cta-secondary">
-                Conhecer procedimentos
+                Conheça os procedimentos
               </a>
             </div>
           </div>
