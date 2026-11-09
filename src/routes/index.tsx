@@ -41,12 +41,13 @@ export const Route = createFileRoute("/")({
       {
         name: "description",
         content:
-          "Procedimentos estéticos personalizados, naturais e harmônicos com a Dra. Raquel Camargo em Vila Mariana, São Paulo.",
+          "Dra. Raquel Camargo, Biomédica Esteta em Vila Mariana, São Paulo. Tratamentos estéticos personalizados, com planejamento individualizado e respeito à naturalidade de cada paciente.",
       },
       { property: "og:title", content: "Dra. Raquel Camargo | Biomédica Esteta" },
       {
         property: "og:description",
-        content: "Realce sua beleza e preserve sua essência com procedimentos personalizados.",
+        content:
+          "Realce sua beleza e preserve sua essência com tratamentos estéticos personalizados em Vila Mariana, São Paulo.",
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
@@ -60,21 +61,21 @@ const TREATMENTS = [
     category: "Corporal",
     title: "Harmonização Corporal",
     description:
-      "Tratamentos que valorizam suas curvas naturais, com foco em contorno, firmeza e bem-estar.",
+      "Protocolos que valorizam o contorno natural do corpo, com foco em firmeza, qualidade da pele e bem-estar.",
     icon: Heart,
   },
   {
     category: "Facial",
     title: "Rejuvenescimento Facial",
     description:
-      "Protocolos com toxina botulínica, bioestimuladores e skinbooster para uma pele mais firme, hidratada e luminosa.",
+      "Protocolos com toxina botulínica, bioestimuladores de colágeno e skinbooster, que contribuem para uma pele mais firme, hidratada e luminosa.",
     icon: Sparkles,
   },
   {
     category: "Tecnologia",
     title: "Tratamentos a Laser",
     description:
-      "Equipamentos de última geração para manchas, textura da pele e rejuvenescimento com segurança.",
+      "Tecnologias indicadas para o cuidado de manchas, textura e qualidade da pele, sempre com critério e segurança.",
     icon: Sun,
   },
 ];
@@ -238,7 +239,8 @@ function Index() {
               </h2>
             </div>
             <p className="hidden max-w-xs text-sm leading-6 text-navy/65 md:block">
-              Cada escolha parte de uma avaliação cuidadosa e respeita a anatomia de cada rosto.
+              Cada indicação parte de uma avaliação cuidadosa e respeita a anatomia e a
+              individualidade de cada rosto.
             </p>
           </div>
 
@@ -260,7 +262,8 @@ function Index() {
                     Botulínica
                   </h3>
                   <p className="mt-6 max-w-sm text-sm leading-7 text-cream/65">
-                    Suavização de linhas de expressão com planejamento individualizado.
+                    Suavização das linhas de expressão com planejamento individualizado,
+                    preservando a naturalidade dos seus movimentos.
                   </p>
                 </div>
                 <a
@@ -298,7 +301,7 @@ function Index() {
                   {...ext}
                   className="inline-flex items-center gap-2 text-xs uppercase tracking-[0.18em] text-rose"
                 >
-                  Conhecer <ArrowUpRight size={15} />
+                  Saiba mais <ArrowUpRight size={15} />
                 </a>
               </div>
             </article>
@@ -313,7 +316,7 @@ function Index() {
                     Facial
                   </h3>
                   <p className="mt-6 max-w-sm text-sm leading-7 text-navy/65">
-                    Estratégia, delicadeza e respeito à identidade em cada detalhe.
+                    Planejamento, delicadeza e respeito à sua identidade em cada detalhe.
                   </p>
                 </div>
                 <a
@@ -321,7 +324,7 @@ function Index() {
                   {...ext}
                   className="mt-10 inline-flex items-center gap-2 text-xs uppercase tracking-[0.18em] text-navy"
                 >
-                  Agendar avaliação <ArrowUpRight size={15} />
+                  Agende sua avaliação <ArrowUpRight size={15} />
                 </a>
               </div>
               <div className="overflow-hidden">
@@ -336,7 +339,7 @@ function Index() {
           </div>
 
           <div className="mt-20 border-y border-navy/15 py-12">
-            <p className="eyebrow text-navy/50">Procedimentos</p>
+            <p className="eyebrow text-navy/50">Outros tratamentos</p>
             <div className="mt-8 grid items-stretch gap-6 lg:grid-cols-3">
               {TREATMENTS.map(({ category, title, description, icon: Icon }) => (
                 <article
@@ -379,7 +382,8 @@ function Index() {
             <em className="text-rose">diferença.</em>
           </h2>
           <p className="mt-6 max-w-lg text-sm leading-7 text-cream/60">
-            Resultados que respeitam a individualidade de cada rosto. Arraste a linha para observar.
+            Casos reais, conduzidos com respeito à individualidade de cada rosto. Arraste a linha
+            para comparar o antes e o depois.
           </p>
           <div className="mt-14 grid gap-6 md:grid-cols-2">
             <BeforeAfter src={antesDepoisFrontal} alt="Resultado facial frontal" />
@@ -389,8 +393,8 @@ function Index() {
             </div>
           </div>
           <p className="mt-6 text-[0.6rem] leading-5 tracking-wide text-cream/45">
-            Cada organismo responde de forma individual. As imagens apresentam casos reais e não
-            constituem promessa de resultado.
+            Cada organismo responde de maneira individual. As imagens mostram casos reais de
+            pacientes e não representam garantia de resultado.
           </p>
         </div>
       </section>
@@ -435,11 +439,15 @@ function Index() {
       <section id="espaco" className="bg-cream pb-24 text-navy md:pb-32">
         <div className="mx-auto max-w-[1440px] px-5 md:px-10">
           <p className="eyebrow text-navy/50">04 — O espaço</p>
-          <h2 className="section-title mt-5 mb-12">
+          <h2 className="section-title mt-5">
             Seu momento
             <br />
             <em>começa aqui.</em>
           </h2>
+          <p className="mt-6 mb-12 max-w-lg text-sm leading-7 text-navy/65">
+            Um ambiente reservado e acolhedor em Vila Mariana, pensado para que você se sinta à
+            vontade em cada etapa do atendimento.
+          </p>
           <div className="space-frame">
             <img
               src={draRaquel}
@@ -505,7 +513,7 @@ function Index() {
             {...ext}
             className="mt-10 inline-flex items-center gap-2 text-[0.65rem] uppercase tracking-[0.18em] text-navy/60"
           >
-            Avaliações publicadas no Google <ArrowUpRight size={14} />
+            Ver avaliações no Google <ArrowUpRight size={14} />
           </a>
         </div>
       </section>
@@ -517,9 +525,12 @@ function Index() {
             <div>
               <p className="eyebrow text-navy/50">07 — Instagram</p>
               <h2 className="mt-5 font-display text-5xl md:text-7xl">@dra_raquelcamargo</h2>
+              <p className="mt-5 max-w-md text-sm leading-7 text-navy/65">
+                Conteúdos sobre cuidados com a pele, bastidores do consultório e casos reais.
+              </p>
             </div>
             <a href={INSTAGRAM_URL} {...ext} className="cta-secondary border-navy text-navy">
-              Acompanhar <Instagram size={16} />
+              Seguir no Instagram <Instagram size={16} />
             </a>
           </div>
           <div className="mt-12 grid grid-cols-2 gap-2 md:grid-cols-4">
@@ -549,12 +560,16 @@ function Index() {
             <br />
             Seu melhor momento.
           </h2>
+          <p className="mx-auto mt-8 max-w-md text-sm leading-7 text-cream/65">
+            Agende sua avaliação e conheça um atendimento pensado para você, com tempo, escuta e
+            cuidado.
+          </p>
           <a
             href={WHATSAPP_URL}
             {...ext}
-            className="cta-primary mx-auto mt-12 w-full max-w-sm justify-center"
+            className="cta-primary mx-auto mt-10 w-full max-w-sm justify-center"
           >
-            Agendar avaliação <ArrowUpRight size={17} />
+            Agende sua avaliação <ArrowUpRight size={17} />
           </a>
         </div>
       </section>
