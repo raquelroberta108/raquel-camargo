@@ -148,10 +148,13 @@ function Index() {
               Tratamentos estéticos personalizados, com técnicas avançadas e planejamento
               individualizado para valorizar sua beleza, respeitando sua naturalidade e essência.
             </p>
-            <p className="mt-6 max-w-lg border-l border-rose/60 pl-5 text-sm leading-7 text-cream/60">
-              Cada paciente é única. Por isso, cada tratamento começa com uma avaliação cuidadosa,
-              considerando suas características, necessidades e objetivos.
-            </p>
+            <div className="mt-6 flex max-w-lg gap-5">
+              <span aria-hidden className="w-px shrink-0 bg-rose/60" />
+              <p className="text-sm leading-7 text-cream/60">
+                Cada paciente é única. Por isso, cada tratamento começa com uma avaliação
+                cuidadosa, considerando suas características, necessidades e objetivos.
+              </p>
+            </div>
             <div className="mt-10 flex flex-col gap-4 sm:flex-row sm:items-center">
               <a href={WHATSAPP_URL} {...ext} className="cta-primary cta-hero">
                 Agende sua avaliação <ArrowUpRight size={18} />
