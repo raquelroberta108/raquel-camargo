@@ -88,10 +88,12 @@
   --whatsapp-shadow: 0 4px 16px color-mix(in oklab, var(--navy) 22%, transparent);
 }
 
+/* Unlayered on purpose: matches the original site, where this softens every outline. */
+* {
+  border-color: var(--border);
+}
+
 @layer base {
-  * {
-    border-color: var(--color-border);
-  }
   html {
     scroll-behavior: smooth;
   }
