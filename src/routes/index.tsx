@@ -414,8 +414,10 @@ function Index() {
             <div className="mt-12 border-t border-navy/15 pt-8">
               <p className="text-xs uppercase tracking-[0.2em]">Biomédica Esteta • CRBM 48767</p>
               <p className="mt-7 max-w-xl text-sm leading-7 text-navy/65">
-                Especializada em estética e procedimentos voltados à valorização da beleza de forma
-                personalizada, respeitando as características e objetivos de cada paciente.
+                Sou Raquel Camargo, Biomédica Esteta, e acredito que a estética deve valorizar aquilo
+                que cada pessoa tem de único. Meu trabalho é pautado em conhecimento técnico,
+                planejamento individualizado e cuidado em cada etapa, buscando resultados que
+                respeitem a beleza e a naturalidade de cada paciente.
               </p>
             </div>
           </div>
