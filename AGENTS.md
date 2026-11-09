@@ -28,3 +28,8 @@ use the editor.
   own key and store it in Secrets.
 - **Secrets.** Lovable manages them. Do not put secret values in the repo.
 <!-- LOVABLE:END -->
+
+## Project rules
+
+- Single-page site at `src/routes/index.tsx`; shared links/copy live in `src/lib/site.ts` and section widgets in `src/components/site/`. Why: one place to update contact links and repeated copy.
+- The global `* { border-color: var(--border) }` in `src/styles.css` is intentionally unlayered. Why: it reproduces the original site's softened outlines; moving it into `@layer base` changes the look.
