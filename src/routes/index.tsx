@@ -414,7 +414,7 @@ function Index() {
             <span className="absolute -bottom-5 -right-3 h-24 w-24 rounded-full border border-rose md:h-36 md:w-36" />
           </div>
           <div className="md:pl-12">
-            <p className="eyebrow text-navy/50">03 — A profissional</p>
+            <p className="eyebrow text-navy/50">03 — Sobre a Dra. Raquel</p>
             <h2 className="mt-7 font-display text-[clamp(4.2rem,8vw,8rem)] leading-[0.74]">
               Dra.
               <br />
@@ -422,13 +422,41 @@ function Index() {
               <br />
               Camargo
             </h2>
-            <div className="mt-12 border-t border-navy/15 pt-8">
-              <p className="text-xs uppercase tracking-[0.2em]">Biomédica Esteta • CRBM 48767</p>
-              <p className="mt-7 max-w-xl text-sm leading-7 text-navy/65">
-                Sou Raquel Camargo, Biomédica Esteta, e acredito que a estética deve valorizar aquilo
-                que cada pessoa tem de único. Meu trabalho é pautado em conhecimento técnico,
-                planejamento individualizado e cuidado em cada etapa, buscando resultados que
-                respeitem a beleza e a naturalidade de cada paciente.
+            <p className="mt-8 max-w-md font-display text-2xl italic leading-snug text-navy/80 md:text-3xl">
+              Beleza, cuidado e naturalidade em cada detalhe.
+            </p>
+
+            <dl className="mt-10 grid grid-cols-2 gap-px bg-navy/15">
+              <div className="bg-cream py-5 pr-4">
+                <dt className="text-[0.6rem] uppercase tracking-[0.22em] text-rose">
+                  Formação e habilitação
+                </dt>
+                <dd className="mt-2 font-display text-2xl leading-tight">Biomédica Esteta</dd>
+              </div>
+              <div className="bg-cream py-5 pl-5">
+                <dt className="text-[0.6rem] uppercase tracking-[0.22em] text-rose">
+                  Registro profissional
+                </dt>
+                <dd className="mt-2 font-display text-2xl leading-tight">CRBM 48767</dd>
+              </div>
+            </dl>
+
+            <div className="max-w-xl space-y-5 border-t border-navy/15 pt-8 text-sm leading-7 text-navy/65">
+              <p>
+                Sou Raquel Camargo, Biomédica Esteta, e acredito que a estética deve valorizar
+                aquilo que cada pessoa tem de único.
+              </p>
+              <p>
+                Meu trabalho é pautado em conhecimento técnico, planejamento individualizado e
+                cuidado em cada etapa do atendimento.
+              </p>
+              <p>
+                Acredito que os melhores resultados são aqueles que respeitam a anatomia, a
+                individualidade e a essência de cada paciente.
+              </p>
+              <p className="text-navy/80">
+                Mais do que realizar procedimentos, meu propósito é proporcionar uma experiência de
+                cuidado, confiança e valorização da beleza natural.
               </p>
             </div>
           </div>
